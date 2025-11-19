@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in - Premium Video Editing Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Solar System Background -->
+    <div class="bg-gradient">
+        <div class="stars" id="stars"></div>
+        <div class="solar-system">
+            <div class="sun"></div>
+            <div class="orbit orbit1"><div class="planet planet1"></div></div>
+            <div class="orbit orbit2"><div class="planet planet2"></div></div>
+            <div class="orbit orbit3"><div class="planet planet3"></div></div>
+            <div class="orbit orbit4"><div class="planet planet4"></div></div>
+            <div class="orbit orbit5"><div class="planet planet5"></div></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <div class="logo">EDITKARO.IN</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Transforming Ideas Into Visual Masterpieces</h1>
+            <p>Premium Video Editing & Social Media Marketing Agency</p>
+            <a href="#portfolio" class="cta-button">Explore Our Work</a>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section" id="portfolio">
+        <h2 class="filter-title">Our Portfolio</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">🎬 All Works</button>
+            <button class="filter-btn" data-filter="short">⚡ Short-Form</button>
+            <button class="filter-btn" data-filter="long">🎥 Long-Form</button>
+            <button class="filter-btn" data-filter="gaming">🎮 Gaming</button>
+            <button class="filter-btn" data-filter="football">⚽ Football</button>
+            <button class="filter-btn" data-filter="ecommerce">🛍️ eCommerce</button>
+            <button class="filter-btn" data-filter="documentary">📽️ Documentary</button>
+            <button class="filter-btn" data-filter="color">🎨 Color Grading</button>
+            <button class="filter-btn" data-filter="anime">🎌 Anime</button>
+            <button class="filter-btn" data-filter="ads">📺 Ads</button>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <div class="portfolio-grid" id="portfolioGrid"></div>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Editkaro.in</h2>
+                <p>We are a premier video editing and social media marketing agency...</p>
+
+                <div class="about-stats">
+                    <div class="stat-card"><div class="stat-number">500+</div><div class="stat-label">Projects Completed</div></div>
+                    <div class="stat-card"><div class="stat-number">200+</div><div class="stat-label">Happy Clients</div></div>
+                    <div class="stat-card"><div class="stat-number">50M+</div><div class="stat-label">Views Generated</div></div>
+                </div>
+            </div>
+
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=600&fit=crop" alt="Video Editing Studio" class="about-img">
+                <div class="about-badge">
+                    <h3>5+ Years</h3>
+                    <p>Of Excellence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="close-btn" id="closeBtn">×</button>
+            <div class="lightbox-video" id="lightboxVideo"></div>
+            <div class="lightbox-info" id="lightboxInfo"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>EDITKARO.IN</h3>
+                <p>Your trusted partner in video editing...</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <div class="social-links">
+                    <a href="#" class="social-icon">📷</a>
+                    <a href="#" class="social-icon">📺</a>
+                    <a href="#" class="social-icon">📧</a>
+                    <a href="#" class="social-icon">📱</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>📧 hello@editkaro.in</p>
+                <p>📱 +91 98XXXXXXXX</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Editkaro.in - All Rights Reserved | Crafted by Pankaj</p>
+        </div>
+    </footer>
+
+    <!-- Separate JS file -->
+    <script src="script.js"></script>
+</body>
+</html>
