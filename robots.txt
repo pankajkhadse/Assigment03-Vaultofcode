@@ -2,4 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 
-Sitemap: https://editkaro.netlify.app/sitemap.xml
+# EditkaroApp Sitemap
+Sitemap: https://editkaroapp.netlify.app/sitemap.xml
