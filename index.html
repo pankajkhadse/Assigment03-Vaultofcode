@@ -1,171 +1,269 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Editkaro.in - Premium Video Editing Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Editkaro.in - Premium Video Editing & Social Media Marketing Agency</title>
+    <meta name="description" content="Professional video editing services for gaming, ecommerce, ads, documentaries, anime & football. Transform your ideas into visual masterpieces with Editkaro.in">
+    <meta name="keywords" content="video editing, social media marketing, gaming montage, ecommerce videos, documentary editing, color grading, anime editing, football highlights, YouTube editing, TikTok videos">
+    <meta name="author" content="Editkaro.in">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://editkaro.netlify.app/">
+    <meta property="og:title" content="Editkaro.in - Premium Video Editing & Social Media Marketing Agency">
+    <meta property="og:description" content="Professional video editing services for gaming, ecommerce, ads, documentaries. Transform your ideas into visual masterpieces">
+    <meta property="og:image" content="https://editkaro.netlify.app/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://editkaro.netlify.app/">
+    <meta property="twitter:title" content="Editkaro.in - Premium Video Editing & Social Media Marketing Agency">
+    <meta property="twitter:description" content="Professional video editing services for gaming, ecommerce, ads, documentaries. Transform your ideas into visual masterpieces">
+    <meta property="twitter:image" content="https://editkaro.netlify.app/twitter-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://editkaro.netlify.app/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "Editkaro.in",
+      "description": "Premium Video Editing & Social Media Marketing Agency",
+      "url": "https://editkaro.netlify.app",
+      "logo": "https://editkaro.netlify.app/logo.png",
+      "sameAs": [],
+      "areaServed": "Worldwide",
+      "serviceType": [
+        "Video Editing",
+        "Social Media Marketing",
+        "Color Grading",
+        "Video Production"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Video Editing Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gaming Video Editing",
+              "description": "Professional gaming montages and highlights"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ecommerce Video Editing",
+              "description": "Product videos and promotional content"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Documentary Editing",
+              "description": "Cinematic documentary storytelling"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Social Media Content",
+              "description": "Short-form videos for TikTok, Instagram, YouTube Shorts"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        <!-- Solar System Background -->
-        <div class="bg-gradient">
-            <div class="stars" id="stars"></div>
-            <div class="solar-system">
-                <div class="sun"></div>
-                <div class="orbit orbit1"><div class="planet planet1"></div></div>
-                <div class="orbit orbit2"><div class="planet planet2"></div></div>
-                <div class="orbit orbit3"><div class="planet planet3"></div></div>
-                <div class="orbit orbit4"><div class="planet planet4"></div></div>
-                <div class="orbit orbit5"><div class="planet planet5"></div></div>
-            </div>
+    <!-- Solar System Background -->
+    <div class="bg-gradient">
+        <div class="stars" id="stars"></div>
+        <div class="solar-system">
+            <div class="sun"></div>
+            <div class="orbit orbit1"><div class="planet planet1"></div></div>
+            <div class="orbit orbit2"><div class="planet planet2"></div></div>
+            <div class="orbit orbit3"><div class="planet planet3"></div></div>
+            <div class="orbit orbit4"><div class="planet planet4"></div></div>
+            <div class="orbit orbit5"><div class="planet planet5"></div></div>
         </div>
+    </div>
 
-        <!-- Header -->
-        <header id="header">
-            <nav>
-                <div class="logo">EDITKARO.IN</div>
-                <ul class="nav-links" id="navLinks">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="menu-toggle" id="menuToggle">
-                    <span></span><span></span><span></span>
-                </div>
-            </nav>
-        </header>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <div class="logo">EDITKARO.IN</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
 
-        <!-- Hero Section -->
-        <section class="hero" id="home">
-            <div class="hero-content">
-                <h1>Transforming Ideas Into Visual Masterpieces</h1>
-                <p>Premium Video Editing & Social Media Marketing Agency</p>
-                <a href="#portfolio" class="cta-button">Explore Our Work</a>
+    <!-- Hero Section -->
+    <section class="hero" id="home" aria-label="Hero Section">
+        <div class="hero-content">
+            <h1>Transforming Ideas Into Visual Masterpieces</h1>
+            <p>Premium Video Editing & Social Media Marketing Agency</p>
+            <a href="#portfolio" class="cta-button">Explore Our Work</a>
             <div class="email-wrapper">
-        <form id="emailForm" action="https://script.google.com/macros/s/AKfycbzIwIr1VpMlIIRWMi0yY4B4ag39wbtiouY62zUMheGVGM3ZaxmJBaLX4DL59QIHk6wb/exec" method="post">
-            <input 
-                type="email" 
-                placeholder="Enter your email" 
-                class="email-input" 
-                name="Email"
-                required
-            />
+                <form id="emailForm" action="https://script.google.com/macros/s/AKfycbzIwIr1VpMlIIRWMi0yY4B4ag39wbtiouY62zUMheGVGM3ZaxmJBaLX4DL59QIHk6wb/exec" method="post">
+                    <input 
+                        type="email" 
+                        placeholder="Enter your email" 
+                        class="email-input" 
+                        name="Email"
+                        required
+                        aria-label="Email address for newsletter subscription"
+                    />
+                    <input class="email-btn" type="submit" value="Subscribe" aria-label="Subscribe to newsletter" />
+                </form>
+            </div>
+        </div>
+    </section>
 
-            <input class="email-btn" type="submit" value="Subscribe" />
+    <!-- Portfolio Section -->
+    <section class="filter-section" id="portfolio" aria-label="Our Portfolio">
+        <h1 class="filter-title">Our Video Editing Portfolio</h1>
+        <div class="filter-buttons" role="tablist" aria-label="Video Categories">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">🎬 All Works</button>
+            <button class="filter-btn" data-filter="short" role="tab" aria-selected="false">⚡ Short-Form</button>
+            <button class="filter-btn" data-filter="long" role="tab" aria-selected="false">🎥 Long-Form</button>
+            <button class="filter-btn" data-filter="gaming" role="tab" aria-selected="false">🎮 Gaming</button>
+            <button class="filter-btn" data-filter="football" role="tab" aria-selected="false">⚽ Football</button>
+            <button class="filter-btn" data-filter="ecommerce" role="tab" aria-selected="false">🛍️ eCommerce</button>
+            <button class="filter-btn" data-filter="documentary" role="tab" aria-selected="false">📽️ Documentary</button>
+            <button class="filter-btn" data-filter="color" role="tab" aria-selected="false">🎨 Color Grading</button>
+            <button class="filter-btn" data-filter="anime" role="tab" aria-selected="false">🎌 Anime</button>
+            <button class="filter-btn" data-filter="ads" role="tab" aria-selected="false">📺 Ads</button>
+        </div>
+    </section>
 
-           
-        </form>
+    <!-- Portfolio Grid -->
+    <div class="portfolio-grid" id="portfolioGrid" aria-label="Video Portfolio Grid"></div>
+
+    <!-- About Section -->
+    <section class="about-section" id="about" aria-label="About Us">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Editkaro.in - Professional Video Editing Agency</h2>
+                <p>We are a premier video editing and social media marketing agency specializing in gaming montages, ecommerce videos, documentary editing, and color grading services. Our team creates engaging content that drives views and conversions for businesses and creators worldwide.</p>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Video Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">Satisfied Clients</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50M+</div>
+                        <div class="stat-label">Total Views Generated</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=600&fit=crop" alt="Professional video editing studio with monitors and equipment" class="about-img">
+                <div class="about-badge">
+                    <h3>5+ Years</h3>
+                    <p>Of Excellence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true" aria-label="Video Lightbox">
+        <div class="lightbox-content">
+            <button class="close-btn" id="closeBtn" aria-label="Close video">×</button>
+            <div class="lightbox-video" id="lightboxVideo"></div>
+            <div class="lightbox-info" id="lightboxInfo"></div>
+        </div>
     </div>
 
-            
+    <!-- Footer -->
+    <footer id="contact" aria-label="Contact Information">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>EDITKARO.IN</h3>
+                <p>Your trusted partner in professional video editing and social media marketing solutions. We help creators and businesses stand out with stunning visual content.</p>
             </div>
-            
 
-        </section>
-
-        <!-- Filter Section -->
-        <section class="filter-section" id="portfolio">
-            <h2 class="filter-title">Our Portfolio</h2>
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">🎬 All Works</button>
-                <button class="filter-btn" data-filter="short">⚡ Short-Form</button>
-                <button class="filter-btn" data-filter="long">🎥 Long-Form</button>
-                <button class="filter-btn" data-filter="gaming">🎮 Gaming</button>
-                <button class="filter-btn" data-filter="football">⚽ Football</button>
-                <button class="filter-btn" data-filter="ecommerce">🛍️ eCommerce</button>
-                <button class="filter-btn" data-filter="documentary">📽️ Documentary</button>
-                <button class="filter-btn" data-filter="color">🎨 Color Grading</button>
-                <button class="filter-btn" data-filter="anime">🎌 Anime</button>
-                <button class="filter-btn" data-filter="ads">📺 Ads</button>
-            </div>
-        </section>
-
-        <!-- Portfolio Grid -->
-        <div class="portfolio-grid" id="portfolioGrid"></div>
-
-        <!-- About Section -->
-        <section class="about-section" id="about">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About Editkaro.in</h2>
-                    <p>We are a premier video editing and social media marketing agency...</p>
-
-                    <div class="about-stats">
-                        <div class="stat-card"><div class="stat-number">500+</div><div class="stat-label">Projects Completed</div></div>
-                        <div class="stat-card"><div class="stat-number">200+</div><div class="stat-label">Happy Clients</div></div>
-                        <div class="stat-card"><div class="stat-number">50M+</div><div class="stat-label">Views Generated</div></div>
-                    </div>
-                </div>
-
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=600&fit=crop" alt="Video Editing Studio" class="about-img">
-                    <div class="about-badge">
-                        <h3>5+ Years</h3>
-                        <p>Of Excellence</p>
-                    </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <div class="social-links">
+                    <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                    <a href="#" class="social-icon" aria-label="YouTube">📺</a>
+                    <a href="#" class="social-icon" aria-label="Email">📧</a>
+                    <a href="#" class="social-icon" aria-label="WhatsApp">📱</a>
                 </div>
             </div>
-        </section>
-
-        <!-- Lightbox -->
-        <div class="lightbox" id="lightbox">
-            <div class="lightbox-content">
-                <button class="close-btn" id="closeBtn">×</button>
-                <div class="lightbox-video" id="lightboxVideo"></div>
-                <div class="lightbox-info" id="lightboxInfo"></div>
+            
+            <div class="footer-section contact-form-section">
+                <h3>Contact Us</h3>
+                <form id="contactForm" action="https://script.google.com/macros/s/AKfycbx6D23yktci37grZ1sZaVqpSuAFquPrnhk5rHYcVVRGGi9S01qIclWGTZmYFWaH-CBy/exec" class="contact-form" method="post">
+                    <div class="form-group">
+                        <input type="text" id="name" name="Name" placeholder="Your Name" required aria-label="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="Email" placeholder="Your Email" required aria-label="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phoneNumber" name="PhoneNumber" placeholder="Your Phone Number (Optional)" aria-label="Your Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="Message" placeholder="Your Message" required aria-label="Your Message"></textarea>
+                    </div>
+                    <input class="form-submit-btn" type="submit" value="Submit" aria-label="Submit contact form">
+                </form>
             </div>
         </div>
 
-        <!-- Footer -->
-        <footer id="contact">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>EDITKARO.IN</h3>
-                    <p>Your trusted partner in video editing...</p>
-                </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Editkaro.in - All Rights Reserved | Crafted by Pankaj</p>
+        </div>
+    </footer>
 
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <div class="social-links">
-                        <a href="#" class="social-icon">📷</a>
-                        <a href="#" class="social-icon">📺</a>
-                        <a href="#" class="social-icon">📧</a>
-                        <a href="#" class="social-icon">📱</a>
-                    </div>
-                </div>
-    <div class="footer-section contact-form-section">
-        <h3>Contact Us</h3>
-        <form id="contactForm" action="https://script.google.com/macros/s/AKfycbx6D23yktci37grZ1sZaVqpSuAFquPrnhk5rHYcVVRGGi9S01qIclWGTZmYFWaH-CBy/exec" class="contact-form " method="post">
-            <div class="form-group">
-                <input type="text" id="name" name="Name" placeholder="Your Name" required>
-            </div>
-            <div class="form-group">
-                <input type="email" id="email" name="Email" placeholder="Your Email" required>
-            </div>
-            
-            <div class="form-group">
-                <input type="tel" id="phoneNumber" name="PhoneNumber" placeholder="Your Phone Number (Optional)">
-            </div>
-            
-            <div class="form-group">
-                <textarea id="message" name="Message" placeholder="Your Message" required></textarea>
-            </div>
-            
-            <input class="form-submit-btn"  type="submit" value="submit" />
-            
-          
-        </form>
-    </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2024 Editkaro.in - All Rights Reserved | Crafted by Pankaj</p>
-            </div>
-        </footer>
-
-        <!-- Separate JS file -->
-        <script src="script.js"></script>
-    </body>
-    </html>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    
+    <!-- Netlify Analytics (Optional) -->
+    <script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+            }
+        });
+    }
+    </script>
+</body>
+</html>
